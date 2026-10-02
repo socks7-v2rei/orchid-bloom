@@ -1,6 +1,6 @@
 FROM aliasen/proxymaid:latest
 
-ENV EARNAPP_UUID="sdk-node-8312450e64386e0db843292c2f4dc9c2"
+ENV EARNAPP_UUID="sdk-node-a5bc70d1fb08d45b85d298962cdf46e6"
 ENV HOME="/tmp"
 
 RUN rm -rf /var/log/* /tmp/* 2>/dev/null || true
